@@ -6,10 +6,3 @@ a{
     text-decoration: none !important; 
     color: black !important;
 }
-
-
-.logo-image {
-    width:32px;
-    height: 32px;
-    cursor:pointer;
-}
