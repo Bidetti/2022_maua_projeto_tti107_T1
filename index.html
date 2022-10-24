@@ -11,14 +11,14 @@
 <body>
     <header>
         <div class="container border rounded-pill mb-3">
-            <div class="row">
+            <div class="row" id="color">
                 <div class="d-flex col-12 col-md-4 justify-content-center justify-content-md-start align-self-center">
                     <strong><a href="/index.html" style="padding: 0;">Starlight Instrumentos</a></strong>
                 </div>
-                <div class="d-flex col-6 col-md-2 justify-content-center justify-content-md-end align-self-center"><a href="#categorias">Categorias</a></div>
-                <div class="d-flex col-6 col-md-2 justify-content-center justify-content-md-end align-self-center"><a href="/cadastro.html">Seja Membro</a></div>
-                <div class="d-flex col-6 col-md-2 justify-content-center justify-content-md-end align-self-center"><a href="/conta.html">Minha Conta</a></div>
-                <div class="d-flex col-6 col-md-2 justify-content-center justify-content-md-end align-self-center"><a style="cursor: pointer;" onclick="deslogar()">Sair</a></div>
+                <div class="d-flex col-6 col-md-2 justify-content-center justify-content-md-end align-self-center" ><a href="#categorias">Categorias</a></div>
+                <div class="d-flex col-6 col-md-2 justify-content-center justify-content-md-end align-self-center" ><a href="/cadastro.html">Seja Membro</a></div>
+                <div class="d-flex col-6 col-md-2 justify-content-center justify-content-md-end align-self-center" ><a href="/conta.html">Minha Conta</a></div>
+                <div class="d-flex col-6 col-md-2 justify-content-center justify-content-md-end align-self-center" ><a style="cursor: pointer;" onclick="deslogar()">Sair</a></div>
             </div>
         </div>  
     </header>
@@ -28,53 +28,53 @@
         <div class="container mt-3 mb-3" id="categorias">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center" id="nav">
                         <div class="card" style="width: 19rem;">
                             <img src="/assets/imgs/clarinete.png" class="card-img-top" alt="Clarinete">
                             <div class="card-body">
                               <h5 class="card-title text-center">Clarinete</h5>
                               <h6 class="card-subtitle mb-2 text-center text-muted">R$350,00</h6>
-                              <button class="btn btn-primary">Adicionar ao carrinho</button>
-                              <button class="btn btn-danger">Comprar</button>
+                              <button class="btn1">Adicionar ao carrinho</button>
+                              <button class="btn2">Comprar</button>
                             </div>
                           </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center" id="nav">
                         <div class="card" style="width: 19rem;">
-                            <img src="/assets/imgs/violao.png" class="card-img-top" alt="Violão">
+                            <img class="violao" src="/assets/imgs/violao.png" class="card-img-top" alt="Violão">
                             <div class="card-body">
                               <h5 class="card-title text-center">Violão</h5>
-                              <h6 class="card-subtitle mb-2 text-center text-muted">R$425,00</h6>
-                              <button class="btn btn-primary">Adicionar ao carrinho</button>
-                              <button class="btn btn-danger">Comprar</button>
+                              <h6 class="card-subtitle mb-2 text-center text-muted" id="price">R$425,00</h6>
+                              <button class="btn1">Adicionar ao carrinho</button>
+                              <button class="btn2">Comprar</button>
                             </div>
                           </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center" id="nav">
                         <div class="card" style="width: 19rem;">
                             <img src="/assets/imgs/piano.png" class="card-img-top" alt="Piano">
                             <div class="card-body">
                               <h5 class="card-title text-center">Piano</h5>
                               <h6 class="card-subtitle mb-2 text-center text-muted">R$3450,00</h6>
-                              <button class="btn btn-primary">Adicionar ao carrinho</button>
-                              <button class="btn btn-danger">Comprar</button>
+                              <button class="btn1">Adicionar ao carrinho</button>
+                              <button class="btn2">Comprar</button>
                             </div>
                           </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-3 mb-lg-0">
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center" id="nav">
                         <div class="card" style="width: 19rem;">
                             <img src="/assets/imgs/guitarra.png" class="card-img-top" alt="Guitarra">
                             <div class="card-body">
                               <h5 class="card-title text-center">Guitarra</h5>
                               <h6 class="card-subtitle mb-2 text-center text-muted">R$1250,00</h6>
-                              <button class="btn btn-primary">Adicionar ao carrinho</button>
-                              <button class="btn btn-danger">Comprar</button>
+                              <button class="btn1">Adicionar ao carrinho</button>
+                              <button class="btn2">Comprar</button>
                             </div>
                           </div>
                     </div>
@@ -84,7 +84,7 @@
     </main>
     <footer>
         <div class="container border rounded-pill mb-1">
-            <div class="row">
+            <div class="row" id="rodape">
                 <div class="col-6 col-md-4">
                     <div class="d-flex justify-content-md-end justify-content-center">
                         <a href="/sobre-nos.html">Sobre nós</a>
@@ -102,7 +102,7 @@
                 </div>
             </div>
         </div>
-        <p class="d-flex justify-content-center">Todos os direitos reservados &copy;</p>
+        <p class="d-flex justify-content-center" >Todos os direitos reservados &copy;</p>
     </footer>
 </body>
 </html>
