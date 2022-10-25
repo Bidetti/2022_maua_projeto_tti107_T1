@@ -8,8 +8,12 @@ a{
     text-transform: uppercase;
     
 }
+
+h3{
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.42);
+}
 #color{
-    background-color: orange;
+    background-color: rgb(17, 192, 223);
     border-radius: 25px;
     padding: 10px 0px;
     
@@ -29,21 +33,10 @@ a{
     outline-offset: 0;
 }
 .card:hover{
-    transform: scale(0.9);
-}
-#nav ::after{
-    content:'';
-    height: 3px;
-    width: 0;
-    background:blue ;
-    position: absolute;
-    bottom: -10px;
-    left: 0;
+    transform: scale(1.1);
     transition: 0.8s;
 }
-#nav :hover::after{
-    width: 100%;
-}
+
 .card{
     background-color: silver;
     border-radius: 20px;
@@ -95,8 +88,11 @@ a{
     background:rgb(99, 2, 2);
 }
 #rodape{
-    background-color: orange;
+    background-color: rgb(17, 192, 223);
     border-radius: 25px;
+    padding: 8px 0px;
+    position: relative;
+    top:20px
 }
 .card-subtitle{
     color:rgb(255, 255, 255) !important;
@@ -122,5 +118,10 @@ body{
     }
 .top :hover::after{
     width: 100%;
+}
+
+#footer{
+    position: relative;
+    top: 20px;
 }
 
