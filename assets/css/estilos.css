@@ -17,6 +17,20 @@ a{
 .violao{
     transform: rotate(45deg);
 }
+
+.card{
+    width: 80%;
+    margin: auto;
+    outline: .1rem solid rgb(53, 52, 52);
+    outline-offset: -.1rem;
+}
+.card:hover{
+    outline: .2rem solid #222;
+    outline-offset: 0;
+}
+.card:hover{
+    transform: scale(0.9);
+}
 #nav ::after{
     content:'';
     height: 3px;
@@ -34,14 +48,15 @@ a{
     background-color: silver;
     border-radius: 20px;
     cursor: pointer;
+    margin:5%
+
 }
 .card-body{
     width: 100%;
-    height: 10%;
     background: linear-gradient(orange, rgb(44, 42, 42));
     border-radius: 20px;
-    z-index: 99;
     position: relative;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.5);
 }
 .btn1{
     width:170px;
@@ -51,9 +66,15 @@ a{
     border-radius: 25px;
     font-weight: bold;
     border:2px solid rgb(7, 7, 7);
-    background:rgb(39, 39, 221);
+    background:rgb(40, 40, 235);
     color:#fff;
     cursor: pointer;
+
+    transition: background 0.2s;
+}
+.btn1:hover{
+    background:rgb(4, 4, 88);
+    
 }
 .btn2{
     width:90px;
@@ -66,6 +87,12 @@ a{
     background:rgb(223, 58, 58);
     color:#fff;
     cursor: pointer;
+
+    transition: background 0.2s;
+}
+
+.btn2:hover{
+    background:rgb(99, 2, 2);
 }
 #rodape{
     background-color: orange;
@@ -75,4 +102,25 @@ a{
     color:rgb(255, 255, 255) !important;
 }
 
+body{
+    user-select: none;
+}
+.top{
+    position: relative;
+    display: inline-block;
+}
+.top::after{
+        content:'';
+        height: 3px;
+        width: 0;
+        background:blue ;
+        bottom: -10px;
+        left: 0;
+        position: absolute;
+        transition: 0.8s;
+        
+    }
+.top :hover::after{
+    width: 100%;
+}
 
