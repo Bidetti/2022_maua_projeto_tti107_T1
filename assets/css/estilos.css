@@ -23,7 +23,7 @@ h3{
 }
 #top:hover{
     color: white !important;
-    transition: .4s;
+    transition: .6s;
 }
 
 .card{
@@ -38,7 +38,8 @@ h3{
 }
 .card:hover{
     transform: scale(1.1);
-    transition: 0.8s;
+    transition: .8s;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
 }
 
 .card{
@@ -53,7 +54,7 @@ h3{
     background: linear-gradient(orange, rgb(44, 42, 42));
     border-radius: 20px;
     position: relative;
-    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.5); */
 }
 .btn1{
     width:170px;
